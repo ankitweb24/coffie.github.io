@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main_div">
+        <div class="vouch">
+            <div class="" id="hot">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+        </div>
+        <div class="cup">
+            <div class="round1"></div>
+            <div class="handel"></div>
+        </div>
+        <div class="plate">
+            <img src="images/coffe.png" alt="coffie">
+        </div>
+        <input type="checkbox" class="input_set" value="check" id="check">
+    </div>
+
+    <script>
+        const check = document.getElementById('check');
+        check.addEventListener('click', ()=>{
+           const hot = document.getElementById('hot');
+            hot.classList.toggle('space_vch');
+        })
+    </script>
+</body>
+</html>
